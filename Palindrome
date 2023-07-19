@@ -1,0 +1,8 @@
+def is_palindrome(s):
+    s=s.upper()
+    if s==s[::-1]:
+        print("{}:Palindrome".format(s))
+    else:
+        print("{}:Not a Palindrome".format(s))
+    return is_palindrome
+is_palindrome("1213")
